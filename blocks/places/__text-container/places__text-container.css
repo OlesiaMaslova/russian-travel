@@ -1,0 +1,19 @@
+.places__text-container {
+    grid-area: text;
+    max-width: 484px;
+    min-width: 288px;
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .places__text-container {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .places__text-container {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
