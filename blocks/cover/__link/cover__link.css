@@ -2,4 +2,5 @@
     text-decoration: none;
     color: inherit;
     z-index: 2;
+    display: block;
 }

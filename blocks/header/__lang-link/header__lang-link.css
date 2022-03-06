@@ -7,10 +7,6 @@
     margin-top:13px;
 }
 
-.header__lang-link:active {
-    text-decoration: underline;
-}
-
 @media screen and (max-width:320px) {
     .header__lang-link {
         font-size: 18px;
