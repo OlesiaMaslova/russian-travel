@@ -28,12 +28,12 @@
 
  @media screen and (min-width:320px) and (max-width:424px) {
     .cover {
-        margin: 66px 0 66px;
+        margin: 74px 0 66px;
     }
 }
 
 @media screen and (max-width:320px) {
     .cover {
-        margin: 66px 0 66px;
+        margin: 74px 0 66px;
     }
 }

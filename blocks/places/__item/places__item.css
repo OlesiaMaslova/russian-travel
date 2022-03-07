@@ -35,6 +35,18 @@
         margin-top: 72px;
         gap: 32px;
     }
+    .places__item:nth-of-type(2) {
+        margin-top: 83px;
+    }
+    .places__item:nth-of-type(3) {
+        margin-top: 58px;
+    }
+    .places__item:nth-of-type(4) {
+        margin-top: 58px;
+    }
+    .places__item:nth-of-type(5) {
+        margin-top: 82px;
+    }
 }
 
 @media screen and (max-width:320px) {
@@ -46,5 +58,17 @@
         "text";
         margin-top: 72px;
         gap: 32px;
+    }
+    .places__item:nth-of-type(2) {
+        margin-top: 83px;
+    }
+    .places__item:nth-of-type(3) {
+        margin-top: 58px;
+    }
+    .places__item:nth-of-type(4) {
+        margin-top: 58px;
+    }
+    .places__item:nth-of-type(5) {
+        margin-top: 82px;
     }
 }
