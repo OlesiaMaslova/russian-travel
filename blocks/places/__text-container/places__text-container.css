@@ -1,12 +1,18 @@
 .places__text-container {
     grid-area: text;
-    max-width: 484px;
-    min-width: 288px;
+    min-width: 484px;
+    padding-top: 15px;
 }
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    .places__text-container {
+    min-width: 456px;
+    }
+}    
 
 @media screen and (min-width:768px) and (max-width:1023px) {
     .places__text-container {
-        max-width: 352px;
+        min-width: 352px;
     }
 }
 
@@ -14,6 +20,8 @@
     .places__text-container {
         margin-left: 16px;
         margin-right: 16px;
+        padding-top: 0;
+        min-width: 288px;
     }
 }
 
@@ -21,5 +29,7 @@
     .places__text-container {
         margin-left: 16px;
         margin-right: 16px;
+        padding-top: 0;
+        min-width: 288px;
     }
 }

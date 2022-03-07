@@ -5,7 +5,12 @@
     "title web"
     "img text"
     "img text";
-    margin-top: 92px;
+    margin-top: 81px;
+    line-height: 0;
+}
+
+.places__item:first-child {
+    margin-top: 0;
 }
 
 @media screen and (min-width:1024px) and (max-width:1279px) {
